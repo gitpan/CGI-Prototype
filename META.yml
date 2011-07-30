@@ -1,12 +1,23 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         CGI-Prototype
-version:      0.9053
-version_from: lib/CGI/Prototype.pm
-installdirs:  site
+---
+abstract: 'Create a CGI application by subclassing'
+author:
+  - 'Randal L. Schwartz <merlyn@stonehenge.com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930001'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CGI-Prototype
+no_index:
+  directory:
+    - t
+    - inc
 requires:
-    Class::Prototyped:             0
-    Template:                      0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.28
+  Class::Prototyped: 0
+  Template: 0
+version: 0.9054

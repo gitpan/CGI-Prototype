@@ -4,7 +4,6 @@ lib/CGI/Prototype/Hidden.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-META.yml
 README
 t/01-CGIP-core.t
 t/02-CGIP-flow.t
@@ -20,3 +19,5 @@ t/TestApp/My/App/welcome.pm
 t/TestApp/My/App/welcome.tt
 t/TestApp/My/App/WRAPPER.tt
 TODO
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
